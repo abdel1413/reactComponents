@@ -35,6 +35,7 @@ export default class Modal extends React.Component {
     constructor(props) {
         super(props);
         this.el = document.createElement("div");
+       
     }
     onClose = (e) => {
         console.log("BUTTON CLICKED");
